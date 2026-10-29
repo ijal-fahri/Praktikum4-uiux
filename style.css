@@ -1,0 +1,180 @@
+/* ===== Dasar halaman ===== */
+body {
+    background-color: #f8f8dc;          /* krem */
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #000;
+    margin: 0;
+}
+
+/* ===== Header ===== */
+#header {
+    background-color: #deb887;          /* cokelat muda (burlywood) */
+    margin: 10px 8px;
+    padding: 10px 15px 15px;
+    text-align: center;
+}
+
+#header h1 {
+    color: #0000cd;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 5px 0 20px;
+}
+
+#header blockquote {
+    background-color: #ffd700;          /* kuning emas */
+    border: 1px dashed #000;
+    margin: 0 auto;
+    padding: 8px 10px;
+    width: 90%;
+    font-size: 12px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#soekarno {
+    display: block;
+    text-align: center;
+}
+
+/* ===== Menu navigasi ===== */
+ul {
+    margin: 0;
+}
+
+body > div:nth-of-type(2) ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: center;
+}
+
+body > div:nth-of-type(2) li {
+    display: inline;
+    margin: 0 1px;
+}
+
+a {
+    color: #0000ee;
+}
+
+a:visited {
+    color: #551a8b;
+}
+
+/* ===== Gambar utama ===== */
+.gambar {
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+.gambar img {
+    height: 140px;
+    width: auto;
+    margin: 0 2px;
+    border-radius: 8px;
+    vertical-align: top;
+}
+
+/* ===== Isi ===== */
+.isi {
+    margin: 0 8px;
+    padding: 0 8px;
+}
+
+.isi p {
+    margin: 0 0 14px;
+    text-align: left;
+}
+
+/* Huruf pertama paragraf pertama (drop cap) */
+.isi p:first-child::first-letter {
+    color: #0000cd;
+    font-size: 40px;
+    float: left;
+    line-height: 1;
+    margin-right: 2px;
+}
+
+.jawa {
+    color: #000;
+}
+
+/* ===== Profil & Budidaya ===== */
+#profil,
+#beternak {
+    margin: 0 8px;
+    padding: 0 8px;
+}
+
+#profil h3,
+#beternak h3 {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 18px 0 10px;
+}
+
+#profil ul {
+    padding-left: 40px;
+}
+
+#beternak ol {
+    padding-left: 40px;
+}
+
+#beternak h4 {
+    font-size: 13px;
+    margin: 0;
+}
+
+#beternak p {
+    margin: 4px 0 12px;
+}
+
+/* ===== Koleksi gambar ===== */
+.koleksi {
+    text-align: center;
+    margin: 20px 8px;
+}
+
+.koleksi img {
+    height: 140px;
+    width: auto;
+    margin: 0 3px;
+    border-radius: 8px;
+}
+
+/* ===== Promo ===== */
+.promo {
+    background-color: #deb887;
+    margin: 10px 8px;
+    padding: 10px 15px 15px;
+    text-align: center;
+}
+
+.promo h2 {
+    font-size: 18px;
+    color: #0000cd;
+}
+
+.promo del {
+    color: #c00;
+}
+
+.promo strong {
+    color: #0000cd;
+    font-size: 18px;
+}
+
+#Wa {
+    background-color: #ffd700;
+    padding: 2px 6px;
+    font-weight: bold;
+}
+
+.promo ol {
+    display: inline-block;
+    text-align: left;
+}
